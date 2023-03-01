@@ -1,0 +1,16 @@
+databases/elasticsearch/logs/*
+databases/elasticsearch/plugins/*
+databases/elasticsearch/data/*
+databases/mariadb/data/*
+databases/mariadb/databases/*
+databases/mongodb/databases/*
+databases/redis/data/*
+nginx/conf.d/*
+nginx/logs/*
+php/*/supervisor/cache/*
+php/*/supervisor/conf.d/*
+source/html/*
+python
+os
+docker-compose.os.yml
+*/.DS_Store
