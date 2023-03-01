@@ -1,6 +1,22 @@
 version: '3'
 
+# networks:
+#   node_network:
+#     driver: bridge
+
 services:
+    # node:
+    #     image: node:12.22.1
+    #     container_name: node
+    #     volumes:
+    #     - ./:/var/www/html/
+    #     working_dir: /var/www/html/
+    #     entrypoint: ['yarn']
+    #     ports:
+    #     - 3009:3000
+    #     networks:
+    #     - node_network
+
     nginx:
         build:
             context: ./nginx
